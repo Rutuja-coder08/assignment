@@ -1,0 +1,53 @@
+
+<title>Welcome to Patient Vaccination App</title>
+<h1>Patient Registration Form</h1>
+<div class="container">
+   <div class="col-6">
+    <form action="/patient/creation" method="POST">
+       <div class="form-group">
+        <label for="name">Name : </label>
+        <input type="text" name="name" id="txtName" />
+        </div>
+        <div class="form-group">
+        <label for="DOB">Date of Birth :</label>
+        <input type="date" name="DateOfBirth" id="dob" />
+        </div>
+        <div class="form-group">
+        <label for="gender">Gender :</label>
+        <select name="Gender" id="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        </select>
+        </div>
+        <div class="form-group">
+        <label for="pob">Birth place: </label>
+        <input type="text" name="PlaceOfBirth" id="pob" />
+        </div>
+        <div class="form-group">
+        <label for="bloodGroup">Blood Group :</label>
+        <select name="BloodGroup" id="bG">
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B-">B-</option>
+        <option value="O+">O+</option>
+        <option value="O-">O-</option>
+        <option value="AB+">AB+</option>
+        <option value="AB-">AB-</option>
+        </select>
+        </div>
+        <div class="form-group">
+        <label fo="height">Height :</label>
+        <input type="number" name="Height" id="height"/>
+         </div>
+         <div class="form-group">
+        <label fo="Weight">Weight :</label>
+        <input type="number" name="Weight" id="weight"/>
+        </div>
+        <button type="submit" id="save">Save</button>
+        <button type="reset" id="cancel">Cancel</button>
+    </form>
+    </div>
+    </div>
+    <!-- <link rel="stylesheet" href="C:\Users\rutuja.jadhav\PLAYGROUND\00-assignment\src\public\styles\style.css"> -->
+ 

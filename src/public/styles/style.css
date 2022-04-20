@@ -1,0 +1,27 @@
+.container{
+    text-align: left;  
+    border: 1px solid rgb(0, 0, 0);
+   font-family: serif;
+
+}
+div {
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+    color: blueviolet;
+  }
+.form-group{
+    padding : 5px;
+}
+button{
+    padding: 5px;
+    color: black;
+    background-color:yellow;
+    border: 2px solid rgb(0, 0, 0);
+}
+h1{
+    text-align: center;
+    color:chocolate;
+   padding-bottom: 30px;
+   font-family: serif;
+}
